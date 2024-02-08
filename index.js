@@ -4095,7 +4095,7 @@ app.use(express.static('static'))
 // Accepts GET requests to /
 // variables show in address bar
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/pokemon-weaknesses.html');
+    res.sendFile(__dirname + '/pokemon');
 })
 
 app.get('/roster', (req, res) => {
